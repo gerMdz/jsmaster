@@ -1,0 +1,15 @@
+body{
+    background-color: lightsteelblue;
+    font-family: Arial, Helvetica, "Abyssinica SIL", sans-serif;
+}
+header{
+    background-color: red;
+}
+#container{
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.article{
+
+}

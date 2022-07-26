@@ -3,44 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <title>Contacto JS</title>
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-<h1>Hola ger!!</h1>
-<h2>Bienvenido</h2>
-<p>Página de contacto</p>
-<hr>
-<ul>
-    <li><a href="index.html"> Inicio</a></li>
-    <li><a href="contacto.html"> Contacto</a></li>
-</ul>
-<hr>
-<h2>Tablas</h2>
-
-<table border="1">
-    <tr>
-        <td>Yo</td>
-        <td>Programo</td>
-    </tr>
-</table>
-<hr>
-<form action="">
-    <p>Formulario de contacto</p>
-    <label for="nombre">Nombre</label>
-    <input type="text" id="nombre"><br/>
-    <label for="email">Nombre</label>
-    <input type="email" id="email"><br/>
-    <label for="opciones">Opciones</label>
-    <select name="opciones" id="opciones">
-        <option value="php">PHP</option>
-        <option value="JavaScript">JavaScript</option>
-    </select>
-
-    <input type="submit" name="submit" id="submit" value="Enviar">
+<div id="container">
+    <header>
+        <h1>Hola ger!!</h1>
+        <h2>Bienvenido</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#"> Index</a></li>
+            <li><a href="#"> Página 1</a></li>
+            <li><a href="#"> Página 2</a></li>
+            <li><a href="#"> Blog</a></li>
+            <li><a href="#"> Contacto</a></li>
+        </ul>
+    </nav>
+    <section id="content">
+        <article class="article">
+            <h2>Título</h2>
+            <p>Página de contacto</p>
+        </article>
 
 
-</form>
-<h4>Imágenes</h4>
-<img width="150px" src="img/depositphotos_25422769-stock-photo-sunrise.webp" alt="Amanecer">
+
+
+        <h2>Tablas</h2>
+
+        <table border="1">
+            <tr>
+                <td>Yo</td>
+                <td>Programo</td>
+            </tr>
+        </table>
+        <hr>
+
+
+    </section>
+    <aside>
+        <form action="">
+            <label for="search"></label>
+            <input type="text" id="search"><br/>
+            <input type="submit" name="submit" id="submit" value="Buscar">
+        </form>
+        <h4>Imágenes</h4>
+        <img width="50px" src="img/depositphotos_25422769-stock-photo-sunrise.webp" alt="Amanecer">
+    </aside>
+    <footer>
+        gerMdz &copy; 2022
+    </footer>
+</div>
+
 
 </body>
 </html>
