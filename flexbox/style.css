@@ -1,0 +1,46 @@
+body {
+    background-color: beige;
+}
+
+.flex-container{
+
+    border: 1px solid black;
+    padding: 20px;
+    background: #ccc;
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;
+
+}
+.caja{
+    border: 1px solid rgba(59, 46, 46);
+    background-color: white;
+    color: black;
+    font-family: 'Courier 10 Pitch', Courier, monospace;
+    font-weight: bold;
+    /*width: 200px;*/
+    line-height: 200px;
+    text-align: center;
+    margin: 5px;
+}
+
+.c1{
+  background: antiquewhite;
+    order:2;
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+.c2{
+   background: chartreuse;
+    order:3;
+    flex-grow: 1;
+}
+.c3{
+    background: darkgrey;
+    order:1;
+    flex-grow: 1;
+}
