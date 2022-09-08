@@ -1,0 +1,34 @@
+//Variables
+
+@use "anidacion";
+
+$color-principal: #cdef01;
+$color-letra: green;
+$color-parrafo: grey;
+
+body{
+  background: $color-principal;
+}
+h2{
+  color: $color-letra;
+}
+p{
+  color: $color-parrafo;
+}
+
+@mixin caja_personalizada($fondo: white) {
+  background-color: $fondo;
+  border: 4px solid coral;
+  box-shadow: 0 0 2px black;
+  margin: 5px
+}
+
+.caja{
+  @include caja_personalizada();
+}
+
+// Operadores
+
+.caja{
+  width: 400px + 100px;
+}
