@@ -16,3 +16,22 @@ mostrarNombre();
 console.log('Bien', nombre);
 
 // console.log('Apellido', apellido)
+
+// Let: ámbito de bloque
+
+let pais = 'Argentina'
+function mostrarPais() {
+    console.log(pais)
+}
+
+mostrarPais()
+
+
+if(true){
+    let continente = 'América';
+    console.log(continente)
+}
+
+// console.log('fuera' , continente) No se accede desde fuera del bloque donde se creo
+
+// console.log(pais)
