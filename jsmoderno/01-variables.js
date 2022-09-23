@@ -35,3 +35,6 @@ if(true){
 // console.log('fuera' , continente) No se accede desde fuera del bloque donde se creo
 
 // console.log(pais)
+
+const edad = 18;
+
