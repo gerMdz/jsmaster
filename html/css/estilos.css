@@ -86,3 +86,12 @@ footer {
     height: 50px;
     line-height: 50px;
 }
+
+.ficha{
+    border: 2px solid black;
+    background: #eeeeee;
+    margin: 15px auto;
+    padding: 15px;
+    width: 250px;
+}
+
