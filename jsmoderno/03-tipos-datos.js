@@ -30,11 +30,7 @@ let nulo = null;
 
 let indefinido = undefined;
 
-
 // json
-
-
-
 console.log(
     typeof nombre,
     typeof numero,
@@ -46,3 +42,21 @@ console.log(
     typeof nulo,
     typeof indefinido,
     );
+
+// Json Object Notation
+
+let movie = {
+    titulo: 'Una',
+    genre: 'Animación',
+    year: '2001',
+    director: 'Director 1',
+    mostrar: function (){
+        return `**** Movie week
+        ${this.titulo + ', ' + this.genre} \n
+        ${this.year}
+        `
+    }
+}
+
+console.log(movie.mostrar())
+
