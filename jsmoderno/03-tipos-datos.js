@@ -58,5 +58,20 @@ let movie = {
     }
 }
 
-console.log(movie.mostrar())
+movie['pais'] = "USA";
+
+delete movie.director;
+
+console.log(movie)
+
+console.log("titulo" in movie)
+console.log("director" in movie)
+
+for (let propiedad in movie){
+    let dato_actual = movie[propiedad];
+    if(typeof dato_actual !== "function") {
+        console.log(propiedad)
+        console.log('-> ' +movie[propiedad])
+    }
+}
 
