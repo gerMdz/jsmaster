@@ -75,3 +75,9 @@ for (let propiedad in movie){
     }
 }
 
+// Symbol
+// Identificadores únicos
+
+let animal = Symbol('tigre');
+console.log(animal)
+
