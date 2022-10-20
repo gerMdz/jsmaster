@@ -81,3 +81,22 @@ for (let propiedad in movie){
 let animal = Symbol('tigre');
 console.log(animal)
 
+// Encadenamiento
+
+const animales = {
+    name: 'Animales',
+    cat: {
+        name: 'Gatito'
+    },
+    dog: {
+        name: 'Perrito'
+    }
+}
+
+
+console.log(animales.lion?.name);
+console.log(animales.dog?.apellido);
+console.log(animales.cat?.name);
+
+
+
