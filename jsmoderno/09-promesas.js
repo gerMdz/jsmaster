@@ -22,6 +22,7 @@ getProducts = () => {
         setTimeout(
             () => {
                 resolve(products);
+                // reject(Error('Ups. Error'))
             }, 500
         )
     })
@@ -32,6 +33,8 @@ getProducts()
     .then((items) => {
         console.log(items)
     })
-
+    .catch(error => console.log(error.message))
+    .finally(() => console.log('Listo'))
+//
 // En una línea
-getProducts().then((items => console.log(items)))
+// getProducts().then((items => console.log(items)))
