@@ -89,3 +89,11 @@ getProducts()
 // getProducts().then((items => console.log(items)))
 //
 //
+
+
+// Se deben ejecutar todas las promesas
+
+Promise.all([getProducts(), procesarVenta('Tablet'), purchasedProduct('Cocina')])
+    .then(venta => {
+        console.log(venta)
+    })
