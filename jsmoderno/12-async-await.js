@@ -22,7 +22,7 @@ getProducts = () => {
         setTimeout(
             () => {
                 resolve(products);
-                // reject(Error('Ups. Error'))
+                reject(Error('Ups. Error'))
             }, 3000
         )
     })
@@ -30,8 +30,31 @@ getProducts = () => {
 }
 
 async function f() {
-    let ger_products = await getProducts();
-    console.log(ger_products)
+    try {
+        let info = await Promise.all([
+            getProducts(),
+            getNames()
+        ])
+        // let ger_products = await getProducts();
+        // let ger_names = await getNames();
+        console.log(info[0], info[1])
+    }
+    catch (error){
+        console.log(error.message)
+    }
+}
+
+getNames = () => {
+    return new Promise((resolve, reject) => {
+
+        setTimeout(
+            () => {
+                resolve('Ger Mdz');
+                // reject(Error('Ups. Error'))
+            }, 3000
+        )
+    })
+
 }
 
 f();
