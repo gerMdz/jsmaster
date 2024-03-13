@@ -149,3 +149,15 @@ console.log(my_cars_2.nGates)
 console.log(Cars.hello('Ger'))
 my_cars_2.nGates = 3;
 console.log(my_cars_2.nGates)
+
+class electric extends Cars
+{
+    constructor() {
+        super();
+        this.cilindros = '400cc';
+    }
+}
+
+let mi_electrico = new electric("Audi", "Algo más")
+
+console.log(mi_electrico)

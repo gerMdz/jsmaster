@@ -95,3 +95,11 @@ footer {
     width: 250px;
 }
 
+.ficha_dos{
+    border: 1px solid whitesmoke;
+    background: #efefef;
+    margin: 18px auto;
+    padding: 18px;
+    width: 200px;
+}
+
