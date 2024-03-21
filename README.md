@@ -9,6 +9,9 @@ https://symfonycasts.com/screencast/symfony5-doctrine/fixtures
 https://fakerphp.github.io/
 https://symfony.com/bundles/ZenstruckFoundryBundle/current/index.html
 
+
+Cap 55: Array
+Cap 56: Objetos literales
 ##### Next
 
-[Cap 55](https://www.udemy.com/course/master-en-typescript-javascript-moderno-ecmascript-es12-apis-html5/learn/lecture/28375178#overview)
+[Cap 57](https://www.udemy.com/course/master-en-typescript-javascript-moderno-ecmascript-es12-apis-html5/learn/lecture/28383756#overview)
