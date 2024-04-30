@@ -23,7 +23,7 @@ Cap 59: Encadenamiento opcional
 Cap 60: 
 ##### Next
 
-[Cap 69](https://www.udemy.com/course/master-en-typescript-javascript-moderno-ecmascript-es12-apis-html5/learn/lecture/28625760#overview)
+[Cap 74](https://www.udemy.com/course/master-en-typescript-javascript-moderno-ecmascript-es12-apis-html5/learn/lecture/28658572#overview)
 
 
 ##### Mas data
