@@ -23,7 +23,7 @@ Cap 59: Encadenamiento opcional
 Cap 60: 
 ##### Next
 
-[Cap 78](https://www.udemy.com/course/master-en-typescript-javascript-moderno-ecmascript-es12-apis-html5/learn/lecture/28673848#overview)
+[Cap 80](https://www.udemy.com/course/master-en-typescript-javascript-moderno-ecmascript-es12-apis-html5/learn/lecture/28678784#overview)
 
 
 ##### Mas data
@@ -31,3 +31,12 @@ Cap 60:
 [Tutorial](https://www.youtube.com/watch?v=gS_B_Gi_aI0)
 
 [Artículo]([https://victorroblesweb.es/2022/04/26/javascript-es2022-novedades-y-mejoras-del-lenguaje-de-frontend-mas-usado/)
+
+
+###### Recordar
+
+```bash
+
+cd project
+tsc --watch
+```
